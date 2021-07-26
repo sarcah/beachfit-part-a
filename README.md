@@ -14,20 +14,20 @@ https://github.com/sarcah/beachfit-web
 #### R1. Description and Purpose
 Beachfit and Wellbeing is a fitness company, offering group bootcamps on Coogee Beach. This business was sold to a new owner two years ago, but the website has not been changed since she took ownership of the business. All the content is from the previous owner. The website also has some design issues (as shown with the search bar in the homepage screenshot below), and is not completely responsive. 
 
-Previous Site Homepage:
+**Previous Site Homepage:**
 
 !["Original Homepage screenshot"](/docs/Original_home.png)
 <sub><sup>Source: http://www.beachfitandwellbeing.com/</sup></sub>
 
-Oversized footer on the laptop size:
+**Oversized footer on the laptop size:**
 !["Original Homepage footer screenshot"](/docs/Original_footer.png)
 <sub><sup>Source: http://www.beachfitandwellbeing.com/</sup></sub>
 
-Inconsistent design on Timetable page: 
+**Inconsistent design on Timetable page:**
 !["Original Timetable screenshot"](/docs/Original_timetable.png)
 <sub><sup>Source: http://www.beachfitandwellbeing.com/</sup></sub>
 
-Dated design on Pricing page:
+**Dated design on Pricing page:**
 !["Original Pricing screenshot"](/docs/Original_pricing.png)
 <sub><sup>Source: http://www.beachfitandwellbeing.com/</sup></sub>
 
