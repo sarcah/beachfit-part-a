@@ -11,6 +11,9 @@ https://github.com/sarcah/beachfit-api
 
 https://github.com/sarcah/beachfit-web
 
+Admin loging: ********
+Admin password: ********
+
 #### R1. Description and Purpose
 Beachfit and Wellbeing is a fitness company, offering group bootcamps on Coogee Beach. This business was sold to a new owner two years ago, but the website has not been changed since she took ownership of the business. All the content is from the previous owner. The website also has some design issues (as shown with the search bar in the homepage screenshot below), and is not completely responsive. 
 
@@ -61,7 +64,7 @@ The below features were originally stretch goals.
 - Implement live chat
 - Would initially deploy on Netlify and Heroku, but then would look to use the current domain name.
 
-**********The blog page was included, with the option for the Client to be able to hide the page if she chooses. Each post also has the ability to add a video link, as per Client's request. The app was also deployed to the original site (http://www.beachfitandwellbeing.com/).
+The blog page was included, with the option for the Client to be able to hide the page if she chooses. Each post also has the ability to add a video link, as per Client's request. The app was also deployed to the original site (http://www.beachfitandwellbeing.com/).
 
 After discussions with the Client, it was decided to not include a search bar, link to external booking site or a live chat functiom. This decision was made to improve UX. There's no real need to search the site, and linking to an external site before they've signed up may cause confusion for a client, and live chat was deemed unnecessary as the Client would rather they contact by phone or email.
 
@@ -126,22 +129,22 @@ The client/owner is also a target audience in a sense. She would like to be able
 
 **Client**
 
-As a client, I want to be able to log in to the site and see a dashboard, that is secure and easy to use. 
-As a client, I want to be able to add/edit/delete FAQs from the site through the administrator dashboard.
-As a client, I want to be able to add/edit/delete the pricing and membership options from the site through the administrator dashboard.
-As a client, I want to be able to add/edit/delete Blog posts from the site.
-As a client, I want potential customers to find it easy to get in contact to set up a free trial, and encourage them to do so.
-As a client, I want potential customers to have a seamless user experience. 
-As a client, I want to utilise the existing web page (http://www.beachfitandwellbeing.com/)
+- As a client, I want to be able to log in to the site and see a dashboard, that is secure and easy to use. 
+- As a client, I want to be able to add/edit/delete FAQs from the site through the administrator dashboard.
+- As a client, I want to be able to add/edit/delete the pricing and membership options from the site through the administrator dashboard.
+- As a client, I want to be able to add/edit/delete Blog posts from the site.
+- As a client, I want potential customers to find it easy to get in contact to set up a free trial, and encourage them to do so.
+- As a client, I want potential customers to have a seamless user experience. 
+- As a client, I want to utilise the existing web page (http://www.beachfitandwellbeing.com/)
 
 **Potential Customer**
 
-As a user, I want to easily interact with the website, and find the information I need.
-As a user, I want to get an accurate idea of what the bootcamp sessions are like before attending. 
-As a user, I want the frequently asked questions to be easily accessible and to cover topics I am interested in.
-As a user, I want to have clear information regarding pricing that I can access upfront.
-As a user, I want multiple options to contact (phone, email, Instagram account). 
-As a user, I want the first search result to appear on google when I search ‘beachfit’ (this happens when the existing website address is used without additional investment in SEO).
+- As a user, I want to easily interact with the website, and find the information I need.
+- As a user, I want to get an accurate idea of what the bootcamp sessions are like before attending. 
+- As a user, I want the frequently asked questions to be easily accessible and to cover topics I am interested in.
+- As a user, I want to have clear information regarding pricing that I can access upfront.
+- As a user, I want multiple options to contact (phone, email, Instagram account). 
+- As a user, I want the first search result to appear on google when I search ‘beachfit’ (this happens when the existing website address is used without additional investment in SEO).
 </details> 
 
 <details>
@@ -149,7 +152,7 @@ As a user, I want the first search result to appear on google when I search ‘b
 
 Some wireframe pages went through multiple versions after discussions with the Client (some iterations can be seen in Part A documentation). Below are final versions.
 
-!["Wireframes"](/docs/wireframes.png)
+!["Wireframes"](/docs/wireframes2.png)
 </details>
 
 <details>
