@@ -189,23 +189,22 @@ Day 7:
 <summary> Part B </summary>
 
 Day 1:
-!["Trello 16 July"](/docs/Trello_Screenshots/Trello_200721.png)
+!["Trello Day 1"](/docs/Trello_Screenshots/Trello_200721.png)
 
 Day 2:
-!["Trello 16 July"](/docs/Trello_Screenshots/Trello_210721.png)
+!["Trello Day 2"](/docs/Trello_Screenshots/Trello_210721.png)
 
 Day 3:
-!["Trello 16 July"](/docs/Trello_Screenshots/Trello_220721.png)
+!["Trello Day 3"](/docs/Trello_Screenshots/Trello_220721.png)
 
 Day 4:
-!["Trello 16 July"](/docs/Trello_Screenshots/Trello_250721.png)
+!["Trello Day 4"](/docs/Trello_Screenshots/Trello_250721.png)
 
 Day 5:
-!["Trello 16 July"](/docs/Trello_Screenshots/Trello_260721.png)
+!["Trello Day 5"](/docs/Trello_Screenshots/Trello_260721.png)
 
-****************
 Day 6:
-!["Trello 16 July"](/docs/Trello_Screenshots/Trello_270721.png)
+!["Trello Day 6"](/docs/Trello_Screenshots/Trello_2607212.png)
 
 </details>
 </details>
