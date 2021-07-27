@@ -3,7 +3,7 @@
 
 <br>
 
-##### Website: https://elastic-murdock-158ae0.netlify.app/
+##### Website: https://beachfitandwellbeing.netlify.app/
 
 ##### Github: 
 https://github.com/sarcah/beachfit-part-a 
