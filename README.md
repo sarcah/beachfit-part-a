@@ -3,7 +3,8 @@
 
 <br>
 
-##### Website: *********
+##### Website: https://elastic-murdock-158ae0.netlify.app/
+
 ##### Github: 
 https://github.com/sarcah/beachfit-part-a 
 
@@ -15,7 +16,7 @@ Admin login: yvonnedallman@hotmail.co.uk
 Admin password: Sandybootcamp19!
 
 #### R1. Description and Purpose
-BeachFit & Wellbeing is a fitness company, offering group bootcamps on Coogee Beach. This business was sold to a new owner two years ago, but the website has not been changed since she took ownership of the business. All the content is from the previous owner. The website also has some design issues (as shown with the search bar in the homepage screenshot below), and is not completely responsive. 
+BeachFit & Wellbeing is a fitness company, offering group bootcamps on Coogee Beach. This business was sold to a new owner two years ago, but the website has not been changed since she took ownership of the business. All the content is from the previous owner. The previous website also has some design issues (as shown with the search bar in the homepage screenshot below), and is not completely responsive. 
 
 **Previous Site Homepage:**
 
@@ -34,27 +35,28 @@ BeachFit & Wellbeing is a fitness company, offering group bootcamps on Coogee Be
 !["Original Pricing screenshot"](/docs/Original_pricing.png)
 <sub><sup>Source: http://www.beachfitandwellbeing.com/</sup></sub>
 
-The website offers no administrator access, and any changes have to be made in the code. The current owner has no technical skills, and would like an easy way to change things like prices and timetable on the website.
+The previous website offered no administrator access, and any changes had to be made in the code. The current owner has no technical skills, and wanted an easy way to change things like prices and timetable on the website.
 
 The purpose of this website is to appeal to new customers for the bootcamps. The company has an Instagram page, and having a website allows the company to provide additional information (like pricing), and to provide added legitimacy to the business.
 
 
 #### Functionality / features
-The MVP site will has the following pages, accessible for all to view:
+The site has the following pages, accessible for all to view:
 - **Home**
 - **About**
 - **Pricing**
 - **Timetable**
 - **FAQs**
 - **Contact**
+- **Blog**
 
-Users will be able to view all pages of the site, to get information about what the classes involve, when they are held and how much they cost. They are also invited to get in contact for a free trial.
+Users are able to view all pages of the site, to get information about what the classes involve, when they are held and how much they cost. They are also invited to get in contact for a free trial. They can read FAQs and blogs
 
 Additionally, there is also a client/administrator site. Below pages are designed only for client to view
 - **Login page**
 - **Administrator Dashboard**
 
-The client will be able to visit a login page, where they are then granted access to the dashboard. This will allow them to edit the FAQs and prices, so they can update them as needed. 
+The client will be able to visit a login page, where they are then granted access to the dashboard. This will allow them to edit the FAQs and prices, so they can update them as needed. They are also able to show/hide the Blog and FAQ pages, and the Testimonial section on the homepage. 
 
 The below features were originally stretch goals. 
 - Blog page - stored in databases, and ability for administrator to post.
@@ -64,7 +66,7 @@ The below features were originally stretch goals.
 - Implement live chat
 - Would initially deploy on Netlify and Heroku, but then would look to use the current domain name.
 
-The blog page was included, with the option for the Client to be able to hide the page if she chooses. Each post also has the ability to add a video link, as per Client's request. The app was also deployed to the original site (http://www.beachfitandwellbeing.com/).
+The blog page was included, with the option for the Client to be able to hide the page if she chooses. Each post also has the ability to add a video link, as per Client's request. The app will be deployed to the original site (http://www.beachfitandwellbeing.com/), but requires further input from the Client as to how she wants to continue.
 
 After discussions with the Client, it was decided to not include a search bar, link to external booking site or a live chat functiom. This decision was made to improve UX. There's no real need to search the site, and linking to an external site before they've signed up may cause confusion for a client, and live chat was deemed unnecessary as the Client would rather they contact by phone or email.
 
@@ -206,6 +208,10 @@ Day 5:
 Day 6:
 !["Trello Day 6"](/docs/Trello_Screenshots/Trello_2607212.png)
 
+Day 7:
+!["Trello Day 7"](/docs/Trello_Screenshots/Trello_270721.png)
+
+
 </details>
 </details>
 <details>
@@ -218,14 +224,18 @@ Testing was done within a formal testing framework using Jest and React. User te
 | TYPE                        | TASK                           | COMMENTS                                                                                                                                   | DEVELOPMENT TESTING | PRODUCTION TESTING | TESTING COMMENTS                                                 | CLIENT CHECK |
 | Authenticate                | User can login                 | User is then directed to dashboard                                                                                                         | fail                | pass               | Can log in, but remove 'Copyright your website'                  | Pass         |
 | Authenticate                | User can log out               | User is then directed to log in page                                                                                                       | pass                | pass               |                                                                  | Pass         |
-| Authenticate                | Only User can access Dashboard | Authentication token cannot be entered manually                                                                                            | fail                | pass               | Fixed with code from Michael                                     | Pass         |
+| Authenticate                | Only User can access Dashboard | Authentication token cannot be entered manually                                                                                            | fail                | pass               | Fixed with code from Michael                                     | N/A          |
 | Authenticate                | Testing user log in            | When incorrect email and password is entered, pop up error box shown                                                                       | pass                | pass               |                                                                  | Pass         |
 | Authenticate                | User Password                  | Password is not displayed when user enters it, but a dot for each letter                                                                   | pass                | pass               |                                                                  | Pass         |
 | Administration              | User Dashboard Home            | Dashboard displays site visitors                                                                                                           | pass                | pass               |                                                                  | Pass         |
 | Administration              | CRUD FAQs                      | User can add/edit/delete FAQs                                                                                                              | pass                | pass               |                                                                  | Pass         |
 | Administration              | CRUD Blogs                     | User can add/edit/delete Blogs                                                                                                             | pass                | pass               |                                                                  | Pass         |
 | Administration              | CRUD Memberships               | User can add/edit/delete Membership                                                                                                        | pass                | pass               |                                                                  | Pass         |
-| Administration              | CRUD Class Pass                | User can add/edit/delete FAQs                                                                                                              | pass                | pass               |                                                                  | Pass         |
+| Administration              | CRUD Class Pass                | User can add/edit/delete Class Pass                                                                                                        | pass                | pass               |                                                                  | Pass         |
+| Administration              | Blog page hide                 | Ability to hide/display Blog page                                                                                                          | fail                | pass               |                                                                  | Pass         |
+| Administration              | FAQ page hide                  | Ability to hide/display FAQ  page                                                                                                          | fail                | pass               |                                                                  | Pass         |
+| Administration              | Testimonial hide               | Ability to hide/display Testimonial on home page                                                                                           | fail                | pass               |                                                                  | Pass         |
+| Administration              | Edit About, Home and Contact   | Ability to edit About text, email and phone number                                                                                         | fail                | pass               |                                                                  | Pass         |
 | Navigation                  | User is shown current location | Tab user is on is highlighted, so they know where they are on site.                                                                        | fail                | pass               | Add highlighed to current tab                                    | Pass         |
 | Navigation                  | Navbar Home page               | Logo links back to homepage and Home button in nav bar                                                                                     | fail                | pass               | Add home to navbar?                                              | Pass         |
 | Navigation                  | Navbar About                   | Links to correct page                                                                                                                      | pass                | pass               |                                                                  | Pass         |
@@ -233,19 +243,23 @@ Testing was done within a formal testing framework using Jest and React. User te
 | Navigation                  | About page - Call Me           | Call Me button on About page displays icon and phone number when clicked, and disappears when clicked again                                | pass                | pass               |                                                                  | Pass         |
 | Navigation                  | Navbar Contact                 | Links to correct page                                                                                                                      | pass                | pass               |                                                                  | Pass         |
 | Navigation                  | Contact page - email           | Email address on Contact page leads to pre-populated email in new window                                                                   | pass                | pass               |                                                                  | Pass         |
-| Navigation                  | Contact page - Mail            | Mail icon links to populated email                                                                                                         | pass                | pass               |                                                                  | Pass         |
 | Navigation                  | Contact page - Instagram       | Instagram icon links to Instagram page                                                                                                     | pass                | pass               |                                                                  | Pass         |
 | Navigation                  | Navbar FAQs                    | Links to correct page                                                                                                                      | pass                | pass               |                                                                  | Pass         |
 | Navigation                  | FAQ questions and answers      | Clicking on dropdown of each Question displays the correct Answer (with enough space for the full Answer text)                             | pass                | pass               |                                                                  | Pass         |
 | Navigation                  | FAQ page - Email Me            | Email Me button on FAQ page leads to pre-populated email in new window                                                                     | pass                | pass               |                                                                  | Pass         |
 | Navigation                  | FAQ page - Call Me             | Call Me button on FAQ page displays icon and phone number when clicked, and disappears when clicked again                                  | pass                | pass               |                                                                  | Pass         |
 | Navigation                  | Navbar Timetable               | Links to correct page                                                                                                                      | pass                | pass               |                                                                  | Pass         |
-| Navigation                  | Timetable page - email         | Email address on Timetable page leads to pre-populated email in new window                                                                 | pass                | pass               |                                                                  | Pass         |
 | Navigation                  | Navbar Pricing                 | Links to correct page                                                                                                                      | pass                | pass               |                                                                  | Pass         |
+| Navigation                  | Navbar contact me              | Contact me buttons link to contact page                                                                                                    | pass                | pass               |                                                                  | Pass         |
 | Navigation                  | Navbar Blogs                   | Links to correct page                                                                                                                      | pass                | pass               |                                                                  | Pass         |
+| Navigation                  | Blog post                      | Blog post displays correct, with image and video                                                                                           | pass                | pass               |                                                                  | Pass         |
+| Navigation                  | Blog author                    | Blog author follow button links to insta                                                                                                   | pass                | pass               |                                                                  | Pass         |
+| Navigation                  | Blog post                      | Back button links back to list of Blogs                                                                                                    | pass                | pass               |                                                                  | Pass         |
+| Navigation                  | Blog view all                  | Display all blogs when view all clicked in a list, and able to click through to individual ones                                            | fail                | pass               |                                                                  | Pass         |
 | Navigation                  | Navbar Mail icon               | Mail icon links to populated email                                                                                                         | pass                | pass               |                                                                  | Pass         |
 | Navigation                  | Navbar Instagram               | Instagram icon links to Instagram page                                                                                                     | pass                | pass               |                                                                  | Pass         |
 | Display                     | Favicon                        | Logo is used for Favicon and displayed on tab                                                                                              | pass                | pass               |                                                                  | Pass         |
+| Display                     | Homepage - random photo        | Display random photo on each refresh                                                                                                       | fail                | pass               |                                                                  | Pass         |
 | Display                     | Homepage - Testimonials        | Testimonials display with the correct name and picture together, and new ones appear when page is refreshed (from database of seven items) | fail                | pass               | Need to fix AWS code to pull pictures through                    | Pass         |
 | Display                     | Footer                         | Footer displays on all pages                                                                                                               | fail                | pass               | Footer not on About page                                         | Pass         |
 | Display                     | Contact page - map             | Map showing corrent location                                                                                                               | pass                | pass               |                                                                  | Pass         |
@@ -298,4 +312,5 @@ Testing was done within a formal testing framework using Jest and React. User te
 | Display                     | Footer                         | Font size appropriate                                                                                                                      | fail                | pass               | Font size large for mobile size, may need to adjust.             | Pass         |
 | Display                     | Login page                     | Log in page is adequately spaced, and has enough room for email address and password to be entered.                                        | pass                | pass               |                                                                  | Pass         |
 | Display                     | Dashboard                      | Adequate sizing and spacing for mobile                                                                                                     | fail                | pass               | Pages need to be resized for mobile.                             | Pass         |
+
 </details>
