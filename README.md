@@ -11,11 +11,11 @@ https://github.com/sarcah/beachfit-api
 
 https://github.com/sarcah/beachfit-web
 
-Admin loging: ********
-Admin password: ********
+Admin login: yvonnedallman@hotmail.co.uk
+Admin password: Sandybootcamp19!
 
 #### R1. Description and Purpose
-Beachfit and Wellbeing is a fitness company, offering group bootcamps on Coogee Beach. This business was sold to a new owner two years ago, but the website has not been changed since she took ownership of the business. All the content is from the previous owner. The website also has some design issues (as shown with the search bar in the homepage screenshot below), and is not completely responsive. 
+BeachFit & Wellbeing is a fitness company, offering group bootcamps on Coogee Beach. This business was sold to a new owner two years ago, but the website has not been changed since she took ownership of the business. All the content is from the previous owner. The website also has some design issues (as shown with the search bar in the homepage screenshot below), and is not completely responsive. 
 
 **Previous Site Homepage:**
 
